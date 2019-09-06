@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "outDir": "./build",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "declaration": true,
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "lib": ["es2015", "es2016", "dom", "dom.iterable"]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
